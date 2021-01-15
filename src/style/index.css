@@ -7,7 +7,7 @@ body {
   margin: 0;
   height: 100%;
   width: 100%;
-  font-family: 'Source Code Pro', monospace;
+  font-family: var(--font);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

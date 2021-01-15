@@ -9,20 +9,53 @@
 
 .about-image{
     display: flex;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
+    justify-content: right;
 }
 
 .about-image img{
-    width: 90%;
+    width: 70%;
+    float: right;   
 }
 
 .about-section{
     display: flex;
     height: 100%;
-    justify-content: center;
     flex-direction: column;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
+
+.hero-btn--cv{
+    background-image: linear-gradient(135deg, white 0%, white 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(135deg, white 0%, white 100%);
+    border-image-slice: 1;
+    cursor: pointer; 
+    width: fit-content;
+    font-family: var(--font);
+    text-align: center;
+}
+
+@media only screen 
+and (max-device-width : 736px){
+    .about-image{
+        justify-content: center;
+        padding-left: 0;
+    }
+    .about-image img{
+        height: 60%;
+    }
+    .about-section{
+        padding-top: 6%;
+        font-size: 0.8rem;
+        text-align: justify;
+    }
+}
+
+
+
+
+

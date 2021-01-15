@@ -4,6 +4,8 @@ import './style/index.css';
 import './style/hero.css';
 import './style/about.css';
 import './style/general.css';
+import './style/projects.css';
+import './style/contact.css';
 import App from './App';
 
 ReactDOM.render(

@@ -1,0 +1,26 @@
+#Contact{
+    font-family: var(--font);
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    border-bottom: 0px;
+    background: rgb(241, 240, 240);
+    padding: 0rem 4rem;
+    margin-bottom: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+@media only screen 
+and (max-device-width : 736px){
+    #Contact{
+        padding: 0 1rem;
+    }
+    .email{
+        font-size: 1.2rem;
+    }
+}

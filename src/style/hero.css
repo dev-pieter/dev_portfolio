@@ -1,5 +1,6 @@
 #hero {
-    font-family: 'Source Code Pro', monospace;
+    font-family: var(--font);
+    /* text-transform: uppercase; */
     min-height: 100vh;
     height: 100vh;
     display: flex;
@@ -8,7 +9,7 @@
     background: rgb(241, 240, 240);
     font-weight: 400;
     /* color: blue;  */
-    padding: 0rem 5.6rem;
+    padding: 0rem 4rem;
     margin-bottom: 0;
     top: 0;
     left: 0;
@@ -19,7 +20,9 @@
 
 .hero-text{
     font-size: 3.6rem;
+
 }
+
 
 .name-text{
     color: blue;
@@ -28,7 +31,7 @@
 .hero-btn{
     display: inline-block;
     position: relative;
-    padding: 0.8rem ;
+    padding: 0.6rem ;
     font-weight: bold;
     line-height: 1;
     z-index: 1;
@@ -57,4 +60,20 @@
     border-image: linear-gradient(135deg, blue 0%, blue 100%);
     border-image-slice: 1;
     cursor: pointer; 
+}
+
+@media only screen and (max-device-width: 768px) {
+    /* For mobile phones: */
+    #hero{
+        padding: 0 2rem;
+    }
+    .hero-text{
+        font-size: 2.2rem;
+        text-align: justify;
+    
+    }
+
+    .hero-btn{
+        font-size: 1.1rem;
+    }
 }
