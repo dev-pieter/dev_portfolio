@@ -1,0 +1,53 @@
+#Projects {
+    height: 100vh;
+    background-color:blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-carousel {
+    width: 100%;
+}
+
+.h-carousel {
+    color: black;
+    text-shadow: black 2px;
+    font-size: 3rem;
+}
+
+.c-text{
+    color: white;
+}
+
+.pr-description {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    color: white;
+    font-size: 1rem;
+}
+
+.item{
+    height: 100vh;
+}
+
+.item-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen 
+and (max-device-width : 736px){
+    .pr-description{
+        padding-top: 1.5rem;
+        font-size: 0.8rem;
+        text-align: justify;
+    }
+
+    .btn-phone{
+        width: 100%;
+    }
+}    

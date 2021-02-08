@@ -1,0 +1,22 @@
+:root {
+    --blue: #6495ed;
+    --white: #faf0e6;
+    --font: 'Source Code Pro', monospace;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font);
+    padding-bottom: 10%;
+    
+}
+
+
+@media only screen and (max-height: 667px){
+    .heading{
+        padding-top: 0;
+        
+    }
+}
