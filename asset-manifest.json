@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio2/static/css/main.c7d27b87.chunk.css",
-    "main.js": "/Portfolio2/static/js/main.9277099d.chunk.js",
-    "main.js.map": "/Portfolio2/static/js/main.9277099d.chunk.js.map",
+    "main.css": "/Portfolio2/static/css/main.2dfba32c.chunk.css",
+    "main.js": "/Portfolio2/static/js/main.490d71be.chunk.js",
+    "main.js.map": "/Portfolio2/static/js/main.490d71be.chunk.js.map",
     "runtime-main.js": "/Portfolio2/static/js/runtime-main.a889eb31.js",
     "runtime-main.js.map": "/Portfolio2/static/js/runtime-main.a889eb31.js.map",
     "static/js/2.4a10dd16.chunk.js": "/Portfolio2/static/js/2.4a10dd16.chunk.js",
     "static/js/2.4a10dd16.chunk.js.map": "/Portfolio2/static/js/2.4a10dd16.chunk.js.map",
     "index.html": "/Portfolio2/index.html",
-    "static/css/main.c7d27b87.chunk.css.map": "/Portfolio2/static/css/main.c7d27b87.chunk.css.map",
+    "static/css/main.2dfba32c.chunk.css.map": "/Portfolio2/static/css/main.2dfba32c.chunk.css.map",
     "static/js/2.4a10dd16.chunk.js.LICENSE.txt": "/Portfolio2/static/js/2.4a10dd16.chunk.js.LICENSE.txt",
     "static/media/DOTERRA.393279d2.png": "/Portfolio2/static/media/DOTERRA.393279d2.png",
     "static/media/Mibrary.57960e18.png": "/Portfolio2/static/media/Mibrary.57960e18.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.a889eb31.js",
     "static/js/2.4a10dd16.chunk.js",
-    "static/css/main.c7d27b87.chunk.css",
-    "static/js/main.9277099d.chunk.js"
+    "static/css/main.2dfba32c.chunk.css",
+    "static/js/main.490d71be.chunk.js"
   ]
 }
