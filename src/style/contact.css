@@ -15,6 +15,18 @@
     z-index: -1;
 }
 
+.icon {
+    font-size: 40px;
+    padding: 10px;
+    cursor: pointer;
+    position:static;
+    transition: font-size 0.2s;
+}
+
+.icon:hover {
+    font-size: 45px; 
+}
+
 @media only screen 
 and (max-device-width : 736px){
     #Contact{

@@ -2,22 +2,61 @@ import {Container, Row, Col, Carousel} from "react-bootstrap";
 import piet from "../assets/TUTPRO.png";
 import doterra from "../assets/DOTERRA.png";
 import smitten from "../assets/Smitten.png"
+import mibrary from "../assets/Mibrary.png"
 
 const Projects = () => {
     return(
         <section id="Projects">
             <Container> 
+                <div style={{alignItems: 'center', display: 'flex', justifyContent: "center"}}>
+                    <div>
+                        <h2 className="heading" style={{color: "white", padding: "0"}}>02. Projects</h2>
+                        <div style={{borderTop:"2px solid white" , width:"100%"}}></div>
+                    </div>
+                </div>    
+            
                 <Carousel controls={false}>
-                    <Carousel.Item className="item" interval={1500}>
+                    {/* <Carousel.Item className="item" interval={1500}>
                     <Container className="item-container">
-                    <h1 className="heading" style={{color: "white"}}>02. Projects</h1>
+                    
                     </Container>
+                    </Carousel.Item> */}
+                    <Carousel.Item className="item" interval={10000}>
+                        {/* <h2 className="heading h-carousel"></h2> */}
+                        <Container className="item-container">
+                            <div>
+                            <h2 className="heading" style={{color: "white", paddingBottom: "3rem"}}>Mibrary</h2>
+                            <Row style={{paddingBottom : "5rem"}}>
+                                <Col md={6} sm={12}>
+                                    <img className="img-carousel" src={mibrary} alt=""/>
+                                </Col>
+                                <Col md={6} sm={12}>
+                                    <div className="pr-description">
+                                        <p className="c-text">A free Book Library Web App developed in <b>ReactJS</b></p>
+                                        <p className="c-text">Functionality includes but not limited to: Login with Google OAuth 2.0, Viewing of Google Books Bookshelf, Google Books Database Search</p>
+                                        <p className="c-text">Entirely developed in the ReactJS and NodeJS frameworks<br/>
+                                        Backend: NodeJS API on AWS, Express, Javascript, MongoDB <br/>
+                                        Frontend: <b>ReactJS</b>, HTML, CSS, Bootstrap</p>
+                                        <br/>
+                                        <Row>
+                                            <Col md={6} sm={12}>
+                                                <span className="hero-btn hero-btn--cv" style={{width: "100%"}}><a href="https://mibraryapp.herokuapp.com/home" target="_blank">Visit</a></span>
+                                            </Col>
+                                            <Col md={6} sm={12}>
+                                                <span className="hero-btn hero-btn--cv" style={{width: "100%"}}><a href="https://github.com/pietabrood/Mibrary" target="_blank">Code</a></span>
+                                            </Col>
+                                        </Row>
+                                    </div>
+                                </Col>
+                            </Row>
+                            </div>
+                        </Container>
                     </Carousel.Item>
                     <Carousel.Item className="item" interval={1500}>
                         {/* <h2 className="heading h-carousel"></h2> */}
                         <Container className="item-container">
                             <div>
-                            <h1 className="heading" style={{color: "white"}}>TutPRO</h1>
+                            <h2 className="heading" style={{color: "white", paddingBottom: "3rem"}}>TutPRO</h2>
                             <Row style={{paddingBottom : "5rem"}}>
                                 <Col md={6} sm={12}>
                                     <img className="img-carousel" src={piet} alt=""/>
@@ -32,10 +71,10 @@ const Projects = () => {
                                         <br/>
                                         <Row>
                                             <Col md={6} sm={12}>
-                                                <span className="hero-btn hero-btn--cv" style={{width: "100%"}}><a href="https://tutpro.azurewebsites.net/">Visit</a></span>
+                                                <span className="hero-btn hero-btn--cv" style={{width: "100%"}}><a onClick={() => alert('Site Under Construction. Please view source code on GitHub')} target="_blank">Visit</a></span>
                                             </Col>
                                             <Col md={6} sm={12}>
-                                            <span className="hero-btn hero-btn--cv" style={{width: "100%"}}><a href="https://github.com/pietabrood/TUTPRO">Code</a></span>
+                                            <span className="hero-btn hero-btn--cv" style={{width: "100%"}}><a href="https://github.com/pietabrood/TUTPRO" target="_blank">Code</a></span>
                                             </Col>
                                         </Row>
                                     </div>
@@ -49,7 +88,7 @@ const Projects = () => {
                     <Carousel.Item className="item" interval={1500}>
                         <Container className="item-container">
                             <div>
-                                <h1 className="heading" style={{color: "white"}}>DOTerra Man</h1>
+                                <h2 className="heading" style={{color: "white", paddingBottom: "3rem"}}>DOTerra Man</h2>
                                 <Row style={{paddingBottom : "5rem"}}>
                                     <Col md={6} sm={12}>
                                         <img className="img-carousel" src={doterra} alt=""/>
@@ -58,7 +97,7 @@ const Projects = () => {
                                         <div className="pr-description">
                                             <p className="c-text">Initial creation, maintenance and adjustments of website using WordPress with additional custom HTML, CSS and JavaScript elements</p>
                                             <br/>
-                                            <span className="hero-btn hero-btn--cv btn-phone" style={{width: "50%"}}><a href="https://www.doterraman.co.za/">View Live</a></span>
+                                            <span className="hero-btn hero-btn--cv btn-phone" style={{width: "50%"}}><a href="https://www.doterraman.co.za/" target="_blank">View Live</a></span>
                                         </div>
                                         
                                         
@@ -71,7 +110,7 @@ const Projects = () => {
                     <Carousel.Item className="item" interval={1500}>
                         <Container className="item-container">
                             <div>
-                                <h1 className="heading" style={{color: "white"}}>Smitten With Leather</h1>
+                                <h2 className="heading" style={{color: "white", paddingBottom: "2rem"}}>Smitten With Leather</h2>
                                 <Row style={{paddingBottom : "5rem"}}>
                                     <Col md={6} sm={12}>
                                         <img className="img-carousel" src={smitten} alt=""/>
@@ -80,7 +119,7 @@ const Projects = () => {
                                         <div className="pr-description">
                                             <p className="c-text">Initial creation, maintenance and adjustments of website using WordPress with additional custom HTML, CSS and JavaScript elements</p>
                                             <br/>
-                                            <span className="hero-btn hero-btn--cv btn-phone" style={{width: "50%"}}><a href="https://www.smittenwithleather.co.za/">View Live</a></span>
+                                            <span className="hero-btn hero-btn--cv btn-phone" style={{width: "50%"}}><a href="https://www.smittenwithleather.co.za/" target="_blank">View Live</a></span>
                                         </div>
                                         
                                         

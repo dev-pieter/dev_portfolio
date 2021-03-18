@@ -29,7 +29,7 @@
 }
 
 .item{
-    height: 100vh;
+    height: 85vh;
 }
 
 .item-container{
@@ -41,13 +41,21 @@
 
 @media only screen 
 and (max-device-width : 736px){
+    .item-container {
+        text-align: center;
+    }
+
+    .item-container img {
+        width : 60%;
+    }
+
     .pr-description{
         padding-top: 1.5rem;
-        font-size: 0.8rem;
+        font-size: 0.6rem;
         text-align: justify;
     }
 
-    .btn-phone{
-        width: 100%;
+    .hero-btn{
+        font-size: 0.8rem;
     }
 }    

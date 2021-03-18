@@ -7,6 +7,10 @@
 
 }
 
+.heading-phone {
+    padding-bottom: 80px;
+}
+
 .about-image{
     display: flex;
     justify-content: center;
@@ -41,16 +45,20 @@
 
 @media only screen 
 and (max-device-width : 736px){
+    .heading-phone{
+        padding-bottom: 20px;
+    }
     .about-image{
         justify-content: center;
         padding-left: 0;
     }
     .about-image img{
-        height: 60%;
+        border-radius: 5px;
+        width: 45%;
     }
     .about-section{
-        padding-top: 6%;
-        font-size: 0.8rem;
+        padding: 6%;
+        font-size: 0.6rem;
         text-align: justify;
     }
 }
