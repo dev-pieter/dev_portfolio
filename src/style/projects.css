@@ -1,12 +1,11 @@
-#Projects {
+#projects {
     height: 100vh;
-    background-color:blue;
+    background-color:black;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
-.img-carousel {
+/* .img-carousel {
     width: 100%;
 }
 
@@ -37,11 +36,75 @@
     display: flex;
     justify-content: center;
     align-items: center;
+} */
+
+.projects-slider {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px;
+    justify-content: center;
+    z-index: 0;
+    margin: auto;
 }
+
+  
+.item {
+    width: 30vw;
+    cursor: pointer;
+    position: relative;
+    margin: 10px;
+    transition: transform 300ms ease 100ms;
+    z-index: 1;
+}
+
+.hidden{
+    width: 100%;
+    opacity: 0;
+    height: 0;
+    position: absolute;
+    text-align: left;
+    color: white;
+    top : 0;
+    padding: 20px;
+    transition: height, opacity 300ms ease 100ms;
+}
+
+.hidden a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.item-img {
+    width: 100%;
+    box-shadow: 0 0 10px black;
+    transition: border-radius 300ms ease 100ms;
+}
+
+.item:hover {
+    z-index: 2;
+}
+
+.item:hover .item-img{
+    border-radius: 20px;
+    filter: blur(2px) brightness(40%);
+}
+
+.item:hover .hidden{
+    opacity: 100% !important;
+    height: 100%;
+    z-index: 3;
+}
+
+
+/* .projects-slider:hover .item {
+    transform: translateX(25%);
+ } */
 
 @media only screen 
 and (max-device-width : 736px){
-    .item-container {
+    /* .item-container {
         text-align: center;
     }
 
@@ -57,5 +120,13 @@ and (max-device-width : 736px){
 
     .hero-btn{
         font-size: 0.8rem;
+    } */
+    .projects-slider {
+        grid-template-columns: auto;
     }
+
+    .item {
+        width: 50vw;
+    }
+    
 }    

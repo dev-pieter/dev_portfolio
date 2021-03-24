@@ -1,6 +1,6 @@
 #about {
     height: 100vh;
-    background-color: blue;
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,6 +43,11 @@
     text-align: center;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
 @media only screen 
 and (max-device-width : 736px){
     .heading-phone{
@@ -53,13 +58,16 @@ and (max-device-width : 736px){
         padding-left: 0;
     }
     .about-image img{
-        border-radius: 5px;
-        width: 45%;
+        width: 40%;
     }
     .about-section{
-        padding: 6%;
+        padding: 8%;
         font-size: 0.6rem;
         text-align: justify;
+    }
+
+    .grid-container {
+        grid-template-columns: auto;
     }
 }
 

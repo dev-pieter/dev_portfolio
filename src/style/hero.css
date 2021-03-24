@@ -18,14 +18,36 @@
     z-index: -1;
 }
 
+.nv {
+    display: grid;
+    height: 100vh; 
+    background: black; 
+    padding: 50px; 
+    align-items: center; 
+    color: white;
+}
+
 .hero-text{
     font-size: 3.6rem;
 
 }
 
+.links {
+    margin: 10px;
+    font-size: 1.2rem;
+}
+
+.b {
+    border-top: 1px solid white;
+}
+
 
 .name-text{
-    color: blue;
+    background: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    color: white;
 }
 
 .hero-btn{
@@ -52,13 +74,6 @@
 }
 
 .hero-btn--hero{
-    background-image: linear-gradient(135deg, blue 0%, blue 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    border-width: 2px;
-    border-style: solid;
-    border-image: linear-gradient(135deg, blue 0%, blue 100%);
-    border-image-slice: 1;
     cursor: pointer; 
 }
 
@@ -75,5 +90,9 @@
 
     .hero-btn{
         font-size: 1.1rem;
+    }
+
+    .nv {
+        display: none;
     }
 }

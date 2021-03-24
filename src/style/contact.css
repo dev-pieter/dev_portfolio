@@ -1,4 +1,4 @@
-#Contact{
+#contact{
     font-family: var(--font);
     min-height: 100vh;
     height: 100vh;
@@ -25,6 +25,11 @@
 
 .icon:hover {
     font-size: 45px; 
+}
+
+.email {
+    text-align: center;
+    margin: 20px;
 }
 
 @media only screen 

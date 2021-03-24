@@ -13,10 +13,47 @@
     
 }
 
+.brand {
+    width: 100px;
+    text-align: center;
+    background: white;
+    color: black;
+    padding: 20px;
+}
+
+.home-i {
+    margin-right: 15px;
+}
+
+.links {
+    font-size: large;
+    cursor: pointer;
+}
+
+.links:hover .home-i{
+    color: orange;
+}
+
+.nav-i {
+    font-size: xx-large;
+    margin-right: 10px;
+}
+
+.App {
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+
 
 @media only screen and (max-height: 667px){
     .heading{
         padding-top: 0;
         
+    }
+}
+
+@media only screen and (max-device-width : 736px){
+    .App {
+        grid-template-columns: auto;
     }
 }

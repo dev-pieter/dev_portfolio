@@ -2,13 +2,13 @@ import {Row, Col, Container} from "react-bootstrap";
 
 const Contact = () =>{
     return(
-        <section id="Contact">
+        <section id="contact">
             <Container style={{textAlign: 'center', justifyContent: "center"}}>
                 <h1>{'03. Get in Touch '} </h1>
                 <div style={{display: 'flex', justifyContent: "center"}}>
                     <div style={{borderTop:"2px solid black" , width:"40%"}}></div>
                 </div>
-                <h2><span className="name-text email"><a href="mailto:pieter_nortje@outlook.com" style={{color: "blue"}}>{'pieter_nortje@outlook.com'}</a></span></h2>
+                <h2 className="email"><span><a href="mailto:pieter_nortje@outlook.com" style={{color: "blue"}}>{'pieter_nortje@outlook.com'}</a></span></h2>
                 <br/>
                 <br/>
                 <br/>
