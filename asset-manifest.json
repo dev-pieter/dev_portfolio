@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio2/static/css/main.4ceb9e81.chunk.css",
+    "main.css": "/Portfolio2/static/css/main.7ee3f3ed.chunk.css",
     "main.js": "/Portfolio2/static/js/main.88440004.chunk.js",
     "main.js.map": "/Portfolio2/static/js/main.88440004.chunk.js.map",
     "runtime-main.js": "/Portfolio2/static/js/runtime-main.a889eb31.js",
@@ -8,7 +8,7 @@
     "static/js/2.edbae8b6.chunk.js": "/Portfolio2/static/js/2.edbae8b6.chunk.js",
     "static/js/2.edbae8b6.chunk.js.map": "/Portfolio2/static/js/2.edbae8b6.chunk.js.map",
     "index.html": "/Portfolio2/index.html",
-    "static/css/main.4ceb9e81.chunk.css.map": "/Portfolio2/static/css/main.4ceb9e81.chunk.css.map",
+    "static/css/main.7ee3f3ed.chunk.css.map": "/Portfolio2/static/css/main.7ee3f3ed.chunk.css.map",
     "static/js/2.edbae8b6.chunk.js.LICENSE.txt": "/Portfolio2/static/js/2.edbae8b6.chunk.js.LICENSE.txt",
     "static/media/DOTERRA.7d03d3dc.png": "/Portfolio2/static/media/DOTERRA.7d03d3dc.png",
     "static/media/Mibrary.2e936090.png": "/Portfolio2/static/media/Mibrary.2e936090.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.a889eb31.js",
     "static/js/2.edbae8b6.chunk.js",
-    "static/css/main.4ceb9e81.chunk.css",
+    "static/css/main.7ee3f3ed.chunk.css",
     "static/js/main.88440004.chunk.js"
   ]
 }
