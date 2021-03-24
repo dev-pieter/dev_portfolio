@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Portfolio2/static/css/main.2dfba32c.chunk.css",
-    "main.js": "/Portfolio2/static/js/main.490d71be.chunk.js",
-    "main.js.map": "/Portfolio2/static/js/main.490d71be.chunk.js.map",
+    "main.css": "/Portfolio2/static/css/main.11414fed.chunk.css",
+    "main.js": "/Portfolio2/static/js/main.a6ac88b2.chunk.js",
+    "main.js.map": "/Portfolio2/static/js/main.a6ac88b2.chunk.js.map",
     "runtime-main.js": "/Portfolio2/static/js/runtime-main.a889eb31.js",
     "runtime-main.js.map": "/Portfolio2/static/js/runtime-main.a889eb31.js.map",
-    "static/js/2.4a10dd16.chunk.js": "/Portfolio2/static/js/2.4a10dd16.chunk.js",
-    "static/js/2.4a10dd16.chunk.js.map": "/Portfolio2/static/js/2.4a10dd16.chunk.js.map",
+    "static/js/2.fb1ea9cd.chunk.js": "/Portfolio2/static/js/2.fb1ea9cd.chunk.js",
+    "static/js/2.fb1ea9cd.chunk.js.map": "/Portfolio2/static/js/2.fb1ea9cd.chunk.js.map",
     "index.html": "/Portfolio2/index.html",
-    "static/css/main.2dfba32c.chunk.css.map": "/Portfolio2/static/css/main.2dfba32c.chunk.css.map",
-    "static/js/2.4a10dd16.chunk.js.LICENSE.txt": "/Portfolio2/static/js/2.4a10dd16.chunk.js.LICENSE.txt",
-    "static/media/DOTERRA.393279d2.png": "/Portfolio2/static/media/DOTERRA.393279d2.png",
-    "static/media/Mibrary.57960e18.png": "/Portfolio2/static/media/Mibrary.57960e18.png",
-    "static/media/Smitten.745a77d8.png": "/Portfolio2/static/media/Smitten.745a77d8.png",
+    "static/css/main.11414fed.chunk.css.map": "/Portfolio2/static/css/main.11414fed.chunk.css.map",
+    "static/js/2.fb1ea9cd.chunk.js.LICENSE.txt": "/Portfolio2/static/js/2.fb1ea9cd.chunk.js.LICENSE.txt",
+    "static/media/DOTERRA.7d03d3dc.png": "/Portfolio2/static/media/DOTERRA.7d03d3dc.png",
+    "static/media/Mibrary.2e936090.png": "/Portfolio2/static/media/Mibrary.2e936090.png",
+    "static/media/Smitten.7834b31e.png": "/Portfolio2/static/media/Smitten.7834b31e.png",
     "static/media/TUTPRO.791a1e07.png": "/Portfolio2/static/media/TUTPRO.791a1e07.png",
     "static/media/piet.98022ee6.JPG": "/Portfolio2/static/media/piet.98022ee6.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.a889eb31.js",
-    "static/js/2.4a10dd16.chunk.js",
-    "static/css/main.2dfba32c.chunk.css",
-    "static/js/main.490d71be.chunk.js"
+    "static/js/2.fb1ea9cd.chunk.js",
+    "static/css/main.11414fed.chunk.css",
+    "static/js/main.a6ac88b2.chunk.js"
   ]
 }
