@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio2/static/css/main.22891768.chunk.css",
+    "main.css": "/Portfolio2/static/css/main.fc00698e.chunk.css",
     "main.js": "/Portfolio2/static/js/main.d26a258d.chunk.js",
     "main.js.map": "/Portfolio2/static/js/main.d26a258d.chunk.js.map",
     "runtime-main.js": "/Portfolio2/static/js/runtime-main.a889eb31.js",
@@ -8,7 +8,7 @@
     "static/js/2.8993897d.chunk.js": "/Portfolio2/static/js/2.8993897d.chunk.js",
     "static/js/2.8993897d.chunk.js.map": "/Portfolio2/static/js/2.8993897d.chunk.js.map",
     "index.html": "/Portfolio2/index.html",
-    "static/css/main.22891768.chunk.css.map": "/Portfolio2/static/css/main.22891768.chunk.css.map",
+    "static/css/main.fc00698e.chunk.css.map": "/Portfolio2/static/css/main.fc00698e.chunk.css.map",
     "static/js/2.8993897d.chunk.js.LICENSE.txt": "/Portfolio2/static/js/2.8993897d.chunk.js.LICENSE.txt",
     "static/media/DOTERRA.7d03d3dc.png": "/Portfolio2/static/media/DOTERRA.7d03d3dc.png",
     "static/media/Mibrary.2e936090.png": "/Portfolio2/static/media/Mibrary.2e936090.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.a889eb31.js",
     "static/js/2.8993897d.chunk.js",
-    "static/css/main.22891768.chunk.css",
+    "static/css/main.fc00698e.chunk.css",
     "static/js/main.d26a258d.chunk.js"
   ]
 }
