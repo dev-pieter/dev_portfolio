@@ -1,7 +1,6 @@
 {
     "name": "portfolio2",
     "version": "0.1.0",
-    "private": true,
     "dependencies": {
         "@chakra-ui/react": "^1.6.5",
         "@emotion/react": "^11.4.0",
@@ -20,7 +19,6 @@
         "react-scroll": "^1.8.1",
         "web-vitals": "^0.2.4"
     },
-    "homepage": "https://pietabrood.github.io/dev_portfolio/",
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
