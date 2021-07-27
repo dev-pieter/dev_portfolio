@@ -20,24 +20,24 @@
     padding: 10px;
     cursor: pointer;
     position:static;
-    transition: font-size 0.2s;
+    transition: transform 0.2s ;
 }
 
 .icon:hover {
-    font-size: 45px; 
+    transform: scale(1.15);
 }
 
-.email {
-    text-align: center;
-    margin: 20px;
-}
+
 
 @media only screen 
 and (max-device-width : 736px){
-    #Contact{
-        padding: 0 1rem;
-    }
+    
     .email{
-        font-size: 1.2rem;
+        font-size: medium;
     }
+
+    #contact h2{
+        font-size: 1.5rem;
+    }
+    
 }

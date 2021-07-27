@@ -1,10 +1,11 @@
 import Hero from "./components/hero.jsx";
 import About from "./components/about.jsx";
-import Projects from "./components/projects.jsx";
+import Projects from "./components/projects/index.jsx";
 import Contact from "./components/contact.jsx"
 import { Link, Element } from 'react-scroll';
 import {useState, useEffect} from 'react';
 import ReactDOM from 'react-dom'
+import './style/general.css';
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
     const scroll = document.getElementById(ref);
 
     if(scroll){
-      scroll.scrollIntoView();
+      scroll.scrollIntoView({behavior: 'smooth'});
     }
   }
 
@@ -30,24 +31,24 @@ function App() {
                     <Link className="links" onClick={() => scrollTo('contact_scroll')}><i class="fa fa-envelope-open home-i" aria-hidden="true"></i>{'Contact'}</Link>
                 </div>
                 <div>
-                  <a href='https://github.com/pietabrood' target='_blank' style={{textDecoration: 'none' ,color:'white'}}><i className="fa fa-github nav-i"></i></a>
+                  <a href='https://github.com/dev-pieter' target='_blank' style={{textDecoration: 'none' ,color:'white'}}><i className="fa fa-github nav-i"></i></a>
                   <a href='https://www.linkedin.com/in/pieternortje/' target='_blank' style={{textDecoration: 'none' ,color:'white'}}><i className="fa fa-linkedin-square nav-i"></i></a>
                   <a href="mailto:pieter_nortje@outlook.com" style={{color: "white"}}>{'pieter_nortje@outlook.com'}</a>
                 </div>
       </div>
-      <div style={{overflowY : 'scroll', height: '100vh'}}>
-        <Element id='home_scroll'></Element>
+      <div className="main-container" style={{overflowY : 'scroll', height: '100vh'}}>
+        <div id='home_scroll'></div>
         <Hero></Hero>
-        <Element id="about_scroll"></Element>
+        <div id="about_scroll"></div>
         <About></About>
-        <Element id='projects_scroll'></Element>
-        <div style={{background: "black", display:"flex", justifyContent:"center", height:"10vh"}}>
+        <div id='projects_scroll'></div>
+        <div className="spacer" style={{background: "black", display:"flex", justifyContent:"center", height:"10vh"}}>
           <br></br>
-          <div style={{borderTop:"2px solid white" , width:"65%"}}></div>
+          <div style={{borderTop:"1px solid white" , width:"65%"}}></div>
           <br></br>
         </div>
         <Projects></Projects>
-        <Element id='contact_scroll'></Element>
+        <div id='contact_scroll'></div>
         <Contact></Contact>
       </div>
     </div>

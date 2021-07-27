@@ -13,6 +13,10 @@
     
 }
 
+.main-display{
+    scroll-behavior: smooth !important;
+}
+
 .brand {
     width: 100px;
     text-align: center;
@@ -44,7 +48,6 @@
     grid-template-columns: 300px auto;
 }
 
-
 @media only screen and (max-height: 667px){
     .heading{
         padding-top: 0;
@@ -56,4 +59,5 @@
     .App {
         grid-template-columns: auto;
     }
+
 }

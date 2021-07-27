@@ -8,6 +8,7 @@
     border-bottom: 0px;
     background: rgb(241, 240, 240);
     font-weight: 400;
+    font-size: x-large;
     /* color: blue;  */
     padding: 0rem 4rem;
     margin-bottom: 0;
@@ -43,11 +44,24 @@
 
 
 .name-text{
-    background: black;
     padding-left: 20px;
     padding-right: 20px;
     margin-left: 20px;
+    background: black;
     color: white;
+    animation: fade 0.7s ease-in;
+}
+
+@keyframes fade {
+    from {
+        background : white;
+        color: black;
+    }
+
+    to{
+        background: black;
+        color: white;
+    }
 }
 
 .hero-btn{
@@ -80,12 +94,11 @@
 @media only screen and (max-device-width: 768px) {
     /* For mobile phones: */
     #hero{
-        padding: 0 2rem;
+        padding: 0 0rem;
     }
     .hero-text{
-        font-size: 2.2rem;
-        text-align: justify;
-    
+        /* font-size: 2.5rem; */
+        text-align: left;
     }
 
     .hero-btn{

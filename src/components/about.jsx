@@ -9,7 +9,6 @@ const About = () => {
                 <div className="heading-phone" style={{alignItems: 'center', display: 'flex', justifyContent: "center"}}>
                     <div>
                         <h2 className="heading" style={{color: "white", paddingBottom: "2px"}}>01. About Me</h2>
-                        <div style={{borderTop:"2px solid white" , width:"100%"}}></div>
                     </div>
                 </div>  
                 <div className='grid-container'>
@@ -22,7 +21,7 @@ const About = () => {
                         <div className="about-section">
                             <p>I am a very passionate programmer with a mind for creating
                                 innovative and efficient code through the utilization
-                                of object orientated methods. I am an independent
+                                of simplistic yet intricate methods. I am an independent
                                 individual, able to follow established procedures
                                 and work under little to no supervision.
                             </p>

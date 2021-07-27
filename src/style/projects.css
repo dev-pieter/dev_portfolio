@@ -1,9 +1,10 @@
 #projects {
-    height: 100vh;
-    background-color:black;
+    min-height: 100vh;
+    background-color: black;
     display: flex;
     justify-content: center;
 }
+
 
 /* .img-carousel {
     width: 100%;
@@ -47,9 +48,12 @@
     margin: auto;
 }
 
-  
+.heading {
+    padding-bottom: 0;
+}
+
 .item {
-    width: 30vw;
+    min-width: 30vw;
     cursor: pointer;
     position: relative;
     margin: 10px;
@@ -57,23 +61,24 @@
     z-index: 1;
 }
 
-.hidden{
+.hidden {
     width: 100%;
-    opacity: 0;
     height: 0;
     position: absolute;
     text-align: left;
-    color: white;
-    top : 0;
+    font-size: 0.65rem;
+    color: rgba(255, 255, 255, 0);
+    top: 0;
     padding: 20px;
-    transition: height, opacity 300ms ease 100ms;
+    transition: height, color 300ms ease 100ms;
 }
 
 .hidden a {
-    text-decoration: none;
     margin-right: 10px;
-    color: white;
-    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0);
+    font-size: 1rem;
+    margin: 2px;
+    transition: color 300ms ease 100ms;
 }
 
 .item-img {
@@ -86,15 +91,20 @@
     z-index: 2;
 }
 
-.item:hover .item-img{
+.item:hover .item-img {
+    transform: scale(1.2);
     border-radius: 20px;
     filter: blur(2px) brightness(40%);
 }
 
-.item:hover .hidden{
-    opacity: 100% !important;
+.item:hover .hidden {
+    color: rgb(255, 255, 255) !important;
     height: 100%;
     z-index: 3;
+}
+
+.item:hover .hidden a {
+    color: rgb(255, 255, 255) !important;
 }
 
 
@@ -102,8 +112,7 @@
     transform: translateX(25%);
  } */
 
-@media only screen 
-and (max-device-width : 736px){
+@media only screen and (max-device-width: 736px) {
     /* .item-container {
         text-align: center;
     }
@@ -124,9 +133,20 @@ and (max-device-width : 736px){
     .projects-slider {
         grid-template-columns: auto;
     }
-
-    .item {
-        width: 50vw;
+    .heading {
+        font-size: 1.5rem;
+        padding-bottom: 0;
     }
-    
-}    
+    .item {
+        min-width: 70vw;
+    }
+    .hidden {
+        font-size: 0.6rem;
+    }
+    .hidden h5 {
+        font-size: 0.9rem;
+    }
+    #projects {
+        height: fit-content;
+    }
+}
