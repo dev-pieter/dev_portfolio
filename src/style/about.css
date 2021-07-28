@@ -7,17 +7,16 @@
 }
 
 .heading-phone {
+    margin-top: 80px;
     padding-bottom: 80px;
 }
 
 .about-image {
-    display: flex;
-    justify-content: center;
+    height: 100%
 }
 
 .about-image img {
     width: 70%;
-    height: 50%;
     border: 2px solid white;
 }
 

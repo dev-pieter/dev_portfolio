@@ -42,11 +42,6 @@ function App() {
         <div id="about_scroll"></div>
         <About></About>
         <div id='projects_scroll'></div>
-        <div className="spacer" style={{background: "black", display:"flex", justifyContent:"center", height:"10vh"}}>
-          <br></br>
-          <div style={{borderTop:"1px solid white" , width:"65%"}}></div>
-          <br></br>
-        </div>
         <Projects></Projects>
         <div id='contact_scroll'></div>
         <Contact></Contact>

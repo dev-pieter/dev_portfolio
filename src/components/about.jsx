@@ -1,21 +1,23 @@
 import React,  { useEffect, useState } from "react";
 import {Container, Col, Row} from "react-bootstrap";
 import piet from "../assets/piet.JPG";
+import { Divider, Stack, Center } from "@chakra-ui/react"
 
 const About = () => {
     return (
         <section id="about" className="about-sec">
+            <Stack>
             <Container>
                 <div className="heading-phone" style={{alignItems: 'center', display: 'flex', justifyContent: "center"}}>
                     <div>
-                        <h2 className="heading" style={{color: "white", paddingBottom: "2px"}}>01. About Me</h2>
+                        <h2 className="heading" style={{color: "white", paddingBottom: "2px"}}>| 01. About Me |</h2>
                     </div>
                 </div>  
                 <div className='grid-container'>
                     <div>
-                        <div className="about-image">
+                        <Center className="about-image">
                             <img style={{boxShadow : '4px 4px 15px black'}} src={piet} alt="Profile"/>
-                        </div>
+                        </Center>
                     </div>
                     <div>
                         <div className="about-section">
@@ -40,6 +42,10 @@ const About = () => {
                     </div>
                 </div>
             </Container>
+            <Center height="200px">
+                <Divider width={'90%'}/>
+            </Center>
+            </Stack>
         </section>
     );
 };
