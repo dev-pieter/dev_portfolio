@@ -1,6 +1,6 @@
 #about {
     min-height: 100vh;
-    background-color: black;
+    background-color: #222831;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +8,7 @@
 
 #work {
     min-height: 50vh;
-    background-color: black;
+    background-color: #222831;
     display: flex;
     justify-content: center;
     align-items: center;

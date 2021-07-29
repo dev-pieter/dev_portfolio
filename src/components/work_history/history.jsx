@@ -14,7 +14,7 @@ import {
 const History = () => {
     return (
         <section id="work" >
-            <Stack maxW={'90%'}>
+            <Stack minW={'70%'} maxW={'90%'}>
             <h2 className="heading" style={{color: "white"}}>| 02. Experience |</h2>
             <Center>
             <Accordion width={'100%'} textColor={'white'} defaultIndex={[0]} allowMultiple allowToggle>
@@ -23,7 +23,7 @@ const History = () => {
                     <AccordionButton>
                         <Box flex="1" textAlign="left">
                         <HStack spacing="5">
-                            <b>JavaScript/Python engineer at The Sun Pays</b><Tag variant={'outline'} color={'white'}>6 months</Tag>
+                            <b>JavaScript/Python engineer<br/> at The Sun Pays</b><Tag variant={'outline'} color={'white'}>6 mon</Tag>
                         </HStack>
                         </Box>
                         <AccordionIcon />
@@ -48,7 +48,7 @@ const History = () => {
                     <AccordionButton>
                     <Box flex="1" textAlign="left">
                         <HStack spacing="5">
-                            <b>Self employed web developer</b><Tag variant={'outline'} color={'white'}>1 year</Tag>
+                            <b>Self employed web developer</b><Tag variant={'outline'} color={'white'}>1 yr</Tag>
                         </HStack>
                     </Box>
                     <AccordionIcon />

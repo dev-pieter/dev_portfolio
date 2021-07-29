@@ -21,16 +21,15 @@
 
 .nv {
     display: grid;
-    height: 100vh; 
-    background: black; 
-    padding: 50px; 
-    align-items: center; 
+    height: 100vh;
+    background: #222831;
+    padding: 50px;
+    align-items: center;
     color: white;
 }
 
-.hero-text{
+.hero-text {
     font-size: 3.6rem;
-
 }
 
 .links {
@@ -42,32 +41,30 @@
     border-top: 1px solid white;
 }
 
-
-.name-text{
+.name-text {
     padding-left: 20px;
     padding-right: 20px;
     margin-left: 20px;
-    background: black;
+    background: #222831;
     color: white;
     animation: fade 0.7s ease-in;
 }
 
 @keyframes fade {
     from {
-        background : white;
-        color: black;
+        background: white;
+        color: #222831;
     }
-
-    to{
-        background: black;
+    to {
+        background: #222831;
         color: white;
     }
 }
 
-.hero-btn{
+.hero-btn {
     display: inline-block;
     position: relative;
-    padding: 0.6rem ;
+    padding: 0.6rem;
     font-weight: bold;
     line-height: 1;
     z-index: 1;
@@ -75,7 +72,7 @@
     font-size: 1.5rem;
 }
 
-.hero-btn::after{
+.hero-btn::after {
     content: '';
     display: block;
     position: absolute;
@@ -87,24 +84,22 @@
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
 }
 
-.hero-btn--hero{
-    cursor: pointer; 
+.hero-btn--hero {
+    cursor: pointer;
 }
 
 @media only screen and (max-device-width: 768px) {
     /* For mobile phones: */
-    #hero{
+    #hero {
         padding: 0 0rem;
     }
-    .hero-text{
+    .hero-text {
         /* font-size: 2.5rem; */
         text-align: left;
     }
-
-    .hero-btn{
+    .hero-btn {
         font-size: 1.1rem;
     }
-
     .nv {
         display: none;
     }

@@ -4,16 +4,15 @@
     --font: 'Source Code Pro', monospace;
 }
 
-.heading{
+.heading {
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: var(--font);
     padding-bottom: 10%;
-    
 }
 
-.main-display{
+.main-display {
     scroll-behavior: smooth !important;
 }
 
@@ -34,7 +33,7 @@
     cursor: pointer;
 }
 
-.links:hover .home-i{
+.links:hover .home-i {
     color: orange;
 }
 
@@ -48,16 +47,14 @@
     grid-template-columns: 300px auto;
 }
 
-@media only screen and (max-height: 667px){
-    .heading{
+@media only screen and (max-height: 667px) {
+    .heading {
         padding-top: 0;
-        
     }
 }
 
-@media only screen and (max-device-width : 736px){
+@media only screen and (max-device-width: 736px) {
     .App {
         grid-template-columns: auto;
     }
-
 }
