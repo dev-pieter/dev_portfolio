@@ -1,6 +1,6 @@
 # My online portfolio
 
-[view_live](https://pietabrood.github.io/dev_portfolio/)
+[view_live](https://devpieter.co.za/)
   
 ### A beautiful, dare I say STYLISH second iteration of my developer portfolio.
 
