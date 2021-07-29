@@ -1,5 +1,6 @@
 import React from 'react'
 import {Box,HStack} from '@chakra-ui/react'
+import { Text } from "@chakra-ui/react"
 
 export default function card(props) {
     return (
@@ -30,13 +31,13 @@ export default function card(props) {
                     <br/>
                 </div>
                 
-                <div style={{display: 'flex'}}>
+                <HStack spacing={'5px'} textAlign={'center'}>
                     {props.details.links.map(item => {
-                        return <h4><a href={item.url} target="_blank">{item.name} |</a></h4>
+                        return <a href={item.url} target="_blank">{item.name}</a>
                     })}
                     
                     {/* <a href="https://github.com/pietabrood/Mibrary" target="_blank"><b>Code</b></a> */}
-                </div>
+                </HStack>
             </div>
         </Box>
     )

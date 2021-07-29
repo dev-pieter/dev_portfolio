@@ -4,7 +4,7 @@ const Contact = () =>{
     return(
         <section id="contact">
             <Container style={{textAlign: 'center', justifyContent: "center"}}>
-                <h2>{'| 03. Get in Touch |'} </h2>
+                <h2>{'| 04. Get in Touch |'} </h2>
                 <p className="email"><a href="mailto:pieter_nortje@outlook.com">{'pieter_nortje@outlook.com'}</a></p>
                 <br/>
                 <div style={{width: "100%", display: 'flex', justifyContent: "center"}}>

@@ -1,5 +1,5 @@
 import {Container} from "react-bootstrap"
-import {Center,Stack,Text} from '@chakra-ui/react'
+import {Center,Stack,Text,Divider} from '@chakra-ui/react'
 import tutpro from "../../assets/TUTPRO.png"
 import doterra from "../../assets/DOTERRA.png"
 import smitten from "../../assets/Smitten.png"
@@ -48,9 +48,12 @@ const Projects = () => {
     return(
         <section id="projects">
             <Container> 
+                <Center height="200px">
+                    <Divider width={'90%'}/>
+                </Center>
                 <Center>
                     <Stack textAlign={'center'}>
-                        <h2 className="heading" style={{color: "white"}}>| 02. Recent Work |</h2>
+                        <h2 className="heading" style={{color: "white"}}>| 03. Recent Work |</h2>
                         <Text textColor="white">
                             Here are some examples of projects I have worked on in the past year of my code journey.<br/>
                             <i>Ordered by most recent.</i>
