@@ -49,7 +49,7 @@ const Projects = () => {
         <section id="projects">
             <Container> 
                 <Center height="200px">
-                    <Divider width={'90%'}/>
+                    <Divider width={'100%'}/>
                 </Center>
                 <Center>
                     <Stack textAlign={'center'}>
