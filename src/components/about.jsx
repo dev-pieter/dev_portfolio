@@ -43,7 +43,7 @@ const About = () => {
                 </div>
             </Container>
             <Center height="200px">
-                <Divider width={'90%'}/>
+                <Divider width={'100%'}/>
             </Center>
             </Stack>
         </section>
